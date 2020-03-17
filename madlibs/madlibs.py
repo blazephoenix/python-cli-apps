@@ -10,7 +10,7 @@ print(f.renderText("Madlibs CLI"))
 @click.option('--city', prompt='Enter a city', help='Name of a city')
 def madlibs(animal, food, city):
     '''
-    A CLI application that takes the name of an animal, food and place to make up a micro story.
+    A CLI application that takes the name of an animal, food and place to make up a madlib.
     '''
     story = f"""
 Once upon a time, deep in an ancient jungle,
