@@ -1,7 +1,7 @@
 import click
 from pyfiglet import Figlet
 
-f = Figlet(font='thick')
+f = Figlet(font='slant')
 print(f.renderText("Madlibs CLI"))
 
 @click.command()
